@@ -319,6 +319,10 @@ public class SpashActivity extends AppCompatActivity {
                     new Salario("Mas de $3M"),
                     this
             );
+            DaoHelperSalario.insertar(
+                    new Salario("NO"),
+                    this
+            );
         }
     }
 
